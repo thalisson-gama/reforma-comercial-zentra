@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#1A1816" />
+  <meta name="description" content="Zentra Engenharia | Obras corporativas ágeis no prazo, com qualidade e prontas para expandir o seu negócio. 10 anos de experiência em reformas e construções comerciais." />
+  <meta name="robots" content="index,follow" />
+
+  <title>Zentra Engenharia | Obras Corporativas Ágeis no Prazo</title>
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:site_name" content="Zentra Engenharia" />
+  <meta property="og:url" content="https://zentraeng.com.br/corporativas" />
+  <meta property="og:title" content="Zentra Engenharia | Obras Corporativas" />
+  <meta property="og:description" content="10 anos entregando obras corporativas ágeis no prazo, com qualidade e prontas para expandir o seu negócio." />
+  <meta property="og:image" content="assets/img/equipe/jonio-rebecca.webp" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Zentra Engenharia | Corporativo" />
+  <meta name="twitter:description" content="Obras corporativas ágeis no prazo, com qualidade e prontas para expandir o seu negócio." />
+  <meta name="twitter:image" content="assets/img/equipe/jonio-rebecca.webp" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png" />
+  <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon-180.png" />
+
+  <!-- Fonts: Poppins (display) + Inter (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Preload key assets -->
+  <link rel="preload" as="image" href="assets/img/hero/hero-bg.webp" fetchpriority="high" />
+  <link rel="preload" as="image" href="assets/img/zentra-logo-white.webp" />
+
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+  <!-- ============================================================ -->
+  <!-- HERO                                                          -->
+  <!-- ============================================================ -->
+  <section id="hero" class="hero">
+    <div class="hero__bg" aria-hidden="true">
+      <img src="assets/img/hero/hero-bg.webp" alt="" width="1920" height="1080" />
+    </div>
+    <div class="hero__overlay" aria-hidden="true"></div>
+
+    <!-- Logo mobile: absolute top center, fora do .hero__inner -->
+    <div class="page-brand page-brand--mobile" aria-hidden="false">
+      <img src="assets/img/zentra-logo-white.webp" alt="Zentra Engenharia" width="900" height="266" />
+    </div>
+
+    <div class="hero__inner">
+      <div class="container hero__grid">
+        <div class="hero__copy">
+          <!-- Logo desktop: primeiro filho do .hero__copy, alinhado com headline -->
+          <a href="/" class="page-brand page-brand--desktop" aria-label="Zentra Engenharia">
+            <img src="assets/img/zentra-logo-white.webp" alt="Zentra Engenharia" width="900" height="266" />
+          </a>
+          <p class="eyebrow eyebrow--light">Zentra Corporativo · Reformas e expansões</p>
+          <h1 class="hero__headline">
+            10 anos entregando obras corporativas
+            <span class="accent">ágeis no prazo, com qualidade</span>
+            e prontas para expandir o seu negócio.
+          </h1>
+          <p class="hero__sub">
+            Cada dia fechado é um dia a menos de lucro. Por isso, nosso compromisso é executar sua obra com qualidade, segurança e agilidade.
+          </p>
+          <div class="hero__cta">
+            <a href="#formulario" class="btn btn--accent btn--lg">
+              Faça seu orçamento
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+            </a>
+            <a href="#obras" class="btn btn--ghost btn--lg">Ver obras entregues</a>
+          </div>
+        </div>
+
+        <figure class="hero__video" aria-label="Vídeo institucional Zentra">
+          <video
+            id="hero-video"
+            poster="assets/img/hero/video-poster.webp"
+            preload="none"
+            playsinline
+            webkit-playsinline
+            disablepictureinpicture>
+            <source src="assets/video/zentra-hero.mp4" type="video/mp4" />
+          </video>
+          <div class="hero__video-overlay">
+            <button class="hero__video-play" type="button" aria-label="Reproduzir vídeo">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+            </button>
+            <span class="hero__video-label">O segredo de tantas obras de sucesso</span>
+          </div>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- PROOF BAR  — apenas dados validados na página antiga          -->
+  <!-- ============================================================ -->
+  <section class="proof">
+    <div class="container proof__grid proof__grid--3">
+      <div class="proof__item">
+        <div class="proof__num"><span data-count="10">0</span><small>anos</small></div>
+        <div class="proof__label">Entregando obras corporativas com qualidade</div>
+      </div>
+      <div class="proof__item">
+        <div class="proof__num proof__num--text">Por fases</div>
+        <div class="proof__label">Trabalhamos sem fechar 100% do seu negócio</div>
+      </div>
+      <div class="proof__item">
+        <div class="proof__num proof__num--text">Método validado</div>
+        <div class="proof__label">Planejamento rigoroso, acompanhamento em tempo real e comunicação clara</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- OBRAS — Mitsubishi Raion + Prooceano (logo após régua)        -->
+  <!-- ============================================================ -->
+  <section class="gallery" id="obras">
+    <div class="container gallery__inner">
+      <p class="eyebrow eyebrow--light">Obras e projetos mais recentes</p>
+      <h2 class="section-title">
+        Espaços corporativos prontos
+        <span class="accent">para gerar receita.</span>
+      </h2>
+      <p class="section-lead">
+        Cada obra abaixo passou pelo mesmo método: orçamento fechado, gestão monitorada e cronograma respeitado — para que o cliente possa focar no que importa, o crescimento do negócio.
+      </p>
+
+      <div class="gallery__projects">
+
+        <article class="project reveal">
+          <div class="project__head">
+            <h3 class="project__title">Raion Mitsubishi</h3>
+            <span class="project__meta">Concessionária · Showroom automotivo</span>
+          </div>
+          <div class="project__grid">
+            <figure class="project__item project__item--feature"><img loading="lazy" src="assets/img/obras-corp/raion-01.webp" alt="Showroom Raion Mitsubishi — área de exposição" /></figure>
+            <figure class="project__item"><img loading="lazy" src="assets/img/obras-corp/raion-02.webp" alt="Showroom Raion Mitsubishi — fachada e iluminação" /></figure>
+            <figure class="project__item"><img loading="lazy" src="assets/img/obras-corp/raion-03.webp" alt="Showroom Raion Mitsubishi — área interna" /></figure>
+            <figure class="project__item"><img loading="lazy" src="assets/img/obras-corp/raion-04.webp" alt="Showroom Raion Mitsubishi — detalhe" /></figure>
+            <figure class="project__item"><img loading="lazy" src="assets/img/obras-corp/raion-05.webp" alt="Showroom Raion Mitsubishi — atendimento" /></figure>
+            <figure class="project__item"><img loading="lazy" src="assets/img/obras-corp/raion-06.webp" alt="Showroom Raion Mitsubishi — ambiente comercial" /></figure>
+          </div>
+        </article>
+
+        <article class="project reveal">
+          <div class="project__head">
+            <h3 class="project__title">Prooceano</h3>
+            <span class="project__meta">Sede corporativa · Espaço de equipe</span>
+          </div>
+          <div class="project__grid">
+            <figure class="project__item project__item--feature"><img loading="lazy" src="assets/img/obras-corp/prooceano-01.webp" alt="Prooceano — área de equipe" /></figure>
+            <figure class="project__item"><img loading="lazy" src="assets/img/obras-corp/prooceano-02.webp" alt="Prooceano — sala de reunião" /></figure>
+            <figure class="project__item"><img loading="lazy" src="assets/img/obras-corp/prooceano-03.webp" alt="Prooceano — copa corporativa" /></figure>
+            <figure class="project__item"><img loading="lazy" src="assets/img/obras-corp/prooceano-04.webp" alt="Prooceano — recepção" /></figure>
+            <figure class="project__item"><img loading="lazy" src="assets/img/obras-corp/prooceano-05.webp" alt="Prooceano — workspace" /></figure>
+            <figure class="project__item"><img loading="lazy" src="assets/img/obras-corp/prooceano-06.webp" alt="Prooceano — detalhe arquitetônico" /></figure>
+          </div>
+        </article>
+
+      </div>
+
+      <!-- CTA pós-galeria — captura a "euforia" das fotos -->
+      <div class="gallery__cta">
+        <a href="#formulario" class="btn btn--accent btn--lg">
+          Quero esse padrão no meu negócio
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- PILLARS — diferenciais para corporativo                       -->
+  <!-- ============================================================ -->
+  <section class="pillars" id="diferenciais">
+    <div class="container">
+      <div class="pillars__head reveal">
+        <p class="eyebrow">Por que a Zentra</p>
+        <h2 class="section-title">
+          Compromissos que protegem
+          <span class="accent">o seu lucro</span>
+          e o seu prazo.
+        </h2>
+        <p class="section-lead">
+          Reforma ou expansão corporativa não pode virar gargalo do negócio. Por isso, nossa engenharia trabalha por fases, mantém limpeza, organização e segurança no canteiro e garante que você abra as portas no tempo certo — sem dores de cabeça jurídicas.
+        </p>
+      </div>
+
+      <div class="pillars__grid">
+        <article class="pillar reveal">
+          <div class="pillar__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M24 6 a18 18 0 1 0 0 36 a18 18 0 1 0 0 -36"/>
+              <path d="M24 12v12l8 4"/>
+            </svg>
+          </div>
+          <h3 class="pillar__title">Prazo cumprido</h3>
+          <p class="pillar__text">
+            Cronograma é compromisso. Cada etapa é planejada e auditada em tempo real para que sua loja, clínica, escritório ou showroom abra na data combinada.
+          </p>
+        </article>
+
+        <article class="pillar reveal">
+          <div class="pillar__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M6 36V14a4 4 0 0 1 4-4h28a4 4 0 0 1 4 4v22"/>
+              <path d="M2 36h44"/>
+              <path d="M16 24h16"/>
+            </svg>
+          </div>
+          <h3 class="pillar__title">Obras por fases</h3>
+          <p class="pillar__text">
+            Seu negócio não precisa parar 100% para crescer. Trabalhamos por fases, mantendo limpeza, organização e segurança em áreas operacionais durante toda a execução.
+          </p>
+        </article>
+
+        <article class="pillar reveal">
+          <div class="pillar__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M8 14 l16-8 16 8 v18 l-16 8 -16-8 z"/>
+              <path d="M8 14 l16 8 l16-8"/>
+              <path d="M24 22 v18"/>
+            </svg>
+          </div>
+          <h3 class="pillar__title">Custo travado</h3>
+          <p class="pillar__text">
+            Orçamento fechado, escopo respeitado. Você paga pelo que foi acordado — sem aditivos surpresa nem desperdício de material.
+          </p>
+        </article>
+
+        <article class="pillar reveal">
+          <div class="pillar__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M24 6l14 7v9c0 9-6 16-14 20-8-4-14-11-14-20v-9z"/>
+              <path d="M17 24l5 5 9-10"/>
+            </svg>
+          </div>
+          <h3 class="pillar__title">Tranquilidade do início ao fim</h3>
+          <p class="pillar__text">
+            Engenheiro gerente, arquiteta de execução e equipe técnica cuidam de tudo — comunicação clara, fotos, relatórios e dossiê de notas fiscais.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- SERVIÇOS                                                      -->
+  <!-- ============================================================ -->
+  <section class="services" id="servicos">
+    <div class="container">
+      <div class="services__head reveal">
+        <p class="eyebrow">Nossos serviços</p>
+        <h2 class="section-title section-title--center">
+          Solução completa para a sua obra corporativa.
+        </h2>
+      </div>
+      <div class="services__grid">
+        <article class="service reveal">
+          <div class="service__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M16 6h6v6h-6z"/>
+              <path d="M30 16l8 8-14 14-8-8z"/>
+              <path d="M22 24l8 8"/>
+            </svg>
+          </div>
+          <h3 class="service__title">Execução de obras</h3>
+          <p class="service__text">
+            Somos especialistas em execução de obras, seja reforma ou construção do zero, temos um método que te previne de dores de cabeça, erros e desperdícios.
+          </p>
+        </article>
+
+        <article class="service reveal">
+          <div class="service__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M8 8h22v22H8z"/>
+              <path d="M18 18h22v22H18z"/>
+            </svg>
+          </div>
+          <h3 class="service__title">Projetos</h3>
+          <p class="service__text">
+            Temos uma solução completa, então caso você não tenha os seus projetos, aqui realizamos todos para você — arquitetônico e complementares, sob a mesma gestão técnica.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- FAQ — três cards corporativos                                 -->
+  <!-- ============================================================ -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <div class="faq__head reveal">
+        <p class="eyebrow">Você pergunta. Nós provamos.</p>
+        <h2 class="section-title section-title--center">
+          As respostas que todo gestor <span class="accent">precisa ouvir</span>.
+        </h2>
+      </div>
+
+      <div class="faq__grid">
+
+        <article class="faq__card reveal">
+          <div class="faq__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/>
+              <polyline points="12 6 12 12 16 14"/>
+            </svg>
+          </div>
+          <p class="faq__q">Tenho prazo para abrir meu negócio. Será que dá?</p>
+          <p class="faq__a">
+            Sim, criamos estratégias de acordo com o prazo necessário, assim você abre as portas no tempo certo, sem risco de atrasos.
+          </p>
+        </article>
+
+        <article class="faq__card reveal">
+          <div class="faq__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="6" width="18" height="14" rx="1.5"/>
+              <path d="M3 10h18"/>
+              <path d="M8 3v4M16 3v4"/>
+            </svg>
+          </div>
+          <p class="faq__q">Preciso continuar aberto durante. Que estratégia usam?</p>
+          <p class="faq__a">
+            Seu negócio não precisa parar 100% para crescer. Trabalhamos por fases, mantendo limpeza, organização e segurança.
+          </p>
+        </article>
+
+        <article class="faq__card faq__card--accent reveal">
+          <div class="faq__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2 l9 4 v6 c0 5-3.5 9-9 10 -5.5-1-9-5-9-10 V6 z"/>
+              <polyline points="9 12 11 14 15 10"/>
+            </svg>
+          </div>
+          <p class="faq__q">Como garantem esses resultados?</p>
+          <p class="faq__a">
+            Método de gestão validado há 10 anos, combinando planejamento rigoroso, acompanhamento em tempo real e comunicação clara.
+          </p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- ESPECIALISTAS                                                 -->
+  <!-- ============================================================ -->
+  <section class="experts" id="especialistas">
+    <div class="container experts__inner">
+      <figure class="experts__photo reveal">
+        <img loading="lazy" src="assets/img/equipe/jonio-rebecca.webp" alt="Jonio e Rebecca, sócios da Zentra Engenharia" width="1400" height="1050" />
+      </figure>
+
+      <div class="experts__copy reveal">
+        <p class="eyebrow">Venha nos conhecer</p>
+        <h2 class="section-title">
+          Garantimos sua tranquilidade
+          <span class="accent">do início ao fim</span>.
+        </h2>
+        <p class="experts__lead">
+          <strong>Jonio e Rebecca</strong> trabalham juntos há mais de 10 anos: um engenheiro gerente geral de obras, a outra arquiteta de execução e planejamento. Uma dupla que une visão técnica e visão de projeto sem ruído.
+        </p>
+        <p class="experts__lead">
+          Com uma abordagem colaborativa e ótima relação com nossos clientes, trazemos soluções para uma obra boa, bonita e com bom custo — patrimônio executado por especialistas.
+        </p>
+        <div class="experts__cta">
+          <a href="#formulario" class="btn btn--accent btn--lg">Faça seu orçamento</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- DEPOIMENTOS                                                   -->
+  <!-- ============================================================ -->
+  <section class="testimonials" id="depoimentos">
+    <div class="container testimonials__inner">
+      <p class="eyebrow eyebrow--light">Depoimentos reais</p>
+      <h2 class="section-title">
+        Veja o que dizem os clientes
+        <span class="accent">que confiaram em nossa equipe.</span>
+      </h2>
+      <p class="section-lead">
+        Conversas de WhatsApp arquivadas — exatamente como recebemos. Sem retoque, sem roteiro.
+      </p>
+
+      <div class="depo-carousel" data-depo>
+        <div class="depo-carousel__track">
+          <article class="depo-card"><img loading="lazy" src="assets/img/depoimentos/depo-1.webp" alt="Depoimento de cliente Zentra (WhatsApp)" /></article>
+          <article class="depo-card"><img loading="lazy" src="assets/img/depoimentos/depo-2.webp" alt="Depoimento de cliente Zentra (WhatsApp)" /></article>
+          <article class="depo-card"><img loading="lazy" src="assets/img/depoimentos/depo-3.webp" alt="Depoimento de cliente Zentra (WhatsApp)" /></article>
+          <article class="depo-card"><img loading="lazy" src="assets/img/depoimentos/depo-4.webp" alt="Depoimento de cliente Zentra (WhatsApp)" /></article>
+        </div>
+        <div class="depo-carousel__nav">
+          <button class="depo-carousel__btn" type="button" data-depo-prev aria-label="Depoimento anterior">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+          </button>
+          <button class="depo-carousel__btn" type="button" data-depo-next aria-label="Próximo depoimento">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- VIABILIDADE / FORM (corporativo — webhook diferente)          -->
+  <!-- ============================================================ -->
+  <section class="viability" id="formulario-section">
+    <div class="container viability__inner">
+      <div class="viability__copy">
+        <p class="eyebrow eyebrow--light">Vamos conversar?</p>
+        <h2 class="section-title">
+          Solicite seu orçamento
+          <span class="accent">sem compromisso.</span>
+        </h2>
+        <p class="section-lead">
+          Em até um dia útil, retornamos pelo WhatsApp informado. Mapeamos juntos a operação atual, o estado do imóvel e o cronograma desejado para entregar um diagnóstico honesto sobre como conduzir a obra sem parar o seu negócio.
+        </p>
+        <ul class="viability__checks">
+          <li>Análise técnica do imóvel comercial</li>
+          <li>Estratégia de execução por fases</li>
+          <li>Escopo, prazo e custo travados em contrato</li>
+          <li>Acompanhamento por relatórios e fotos durante toda a obra</li>
+        </ul>
+      </div>
+
+      <!-- IMPORTANT: form id, field ids, field names and webhook action are
+           preserved from the original Elementor form so the M² Black tracking
+           webhook keeps working. Do NOT rename. -->
+      <form
+        id="formulario"
+        name="formulario"
+        class="form"
+        action="https://m2black.atenderbem.com/webhookcapture/capture/9c804fda2cec4a00bff6dbb48e92472a"
+        method="POST"
+        novalidate>
+
+        <h3 class="form__title">Faça seu orçamento</h3>
+        <p class="form__subtitle">O formulário abaixo nos ajuda a te atender ainda mais rápido.</p>
+
+        <div class="form__steps" aria-hidden="true">
+          <span class="form__step-dot is-active">1</span>
+          <span class="form__step-line"></span>
+          <span class="form__step-dot">2</span>
+        </div>
+
+        <!-- STEP 1: contato -->
+        <fieldset class="form__page is-active">
+          <div class="form__field">
+            <label for="field-nome">Nome completo</label>
+            <input type="text" id="field-nome" name="Nome" placeholder="Seu nome completo" required autocomplete="name" />
+          </div>
+          <div class="form__field">
+            <label for="ad4219d">E-mail</label>
+            <input type="email" id="ad4219d" name="Email" placeholder="Seu melhor e-mail" required autocomplete="email" />
+          </div>
+          <div class="form__field">
+            <label for="40c74a0">WhatsApp</label>
+            <input type="tel" id="40c74a0" name="WhatsApp" placeholder="(00) 00000-0000" required autocomplete="tel" inputmode="tel" />
+          </div>
+          <div class="form__nav">
+            <button type="button" class="btn btn--accent btn--lg btn--block" data-form-next>Continuar</button>
+          </div>
+        </fieldset>
+
+        <!-- STEP 2: projeto corporativo -->
+        <fieldset class="form__page">
+          <div class="form__field">
+            <label for="field-servico">Qual serviço você busca?</label>
+            <select id="field-servico" name="servico" required>
+              <option value="">Selecione</option>
+              <option value="Construção do zero">Construção do zero</option>
+              <option value="Reforma">Reforma</option>
+            </select>
+          </div>
+
+          <div class="form__field">
+            <label for="field-projetos">Você já tem os projetos da sua obra?</label>
+            <select id="field-projetos" name="projetos" required>
+              <option value="">Selecione</option>
+              <option value="Sim, tenho os projetos.">Sim, tenho os projetos.</option>
+              <option value="Não, ainda não tenho os projetos.">Não, ainda não tenho os projetos.</option>
+            </select>
+          </div>
+
+          <div class="form__field">
+            <label for="field-tempo">Em quanto tempo pretende iniciar a obra?</label>
+            <select id="field-tempo" name="tempo" required>
+              <option value="">Selecione</option>
+              <option value="Entre 1 e 3 meses.">Entre 1 e 3 meses.</option>
+              <option value="Entre 3 e 6 meses.">Entre 3 e 6 meses.</option>
+              <option value="Entre 6 meses e 1 ano.">Entre 6 meses e 1 ano.</option>
+              <option value="Mais que 1 ano.">Mais que 1 ano.</option>
+            </select>
+          </div>
+
+          <div class="form__field">
+            <label for="field-finalidade">Qual o ramo ou finalidade do imóvel?</label>
+            <input type="text" id="field-finalidade" name="finalidade" placeholder="Ex: loja, clínica, academia, escritório" required />
+          </div>
+
+          <div class="form__field">
+            <label for="field-bairro">Em qual bairro será a obra?</label>
+            <input type="text" id="field-bairro" name="site" placeholder="Bairro / cidade" required />
+          </div>
+
+          <!-- Hidden tracking fields preserved from Elementor form -->
+          <input type="hidden" name="Nome_da_pagina" value="" />
+          <input type="hidden" name="URL_da_pagina" value="" />
+          <input type="hidden" name="Data" value="" />
+          <input type="hidden" name="Horario" value="" />
+          <input type="hidden" name="utm_source" value="" />
+          <input type="hidden" name="utm_medium" value="" />
+          <input type="hidden" name="utm_campaign" value="" />
+          <input type="hidden" name="utm_term" value="" />
+          <input type="hidden" name="utm_content" value="" />
+
+          <div class="form__nav">
+            <button type="button" class="btn form__back" data-form-back>Voltar</button>
+            <button type="submit" class="btn btn--accent" data-label="Enviar orçamento">Enviar orçamento</button>
+          </div>
+        </fieldset>
+
+        <p class="form__consent">
+          Ao enviar, você concorda em receber o contato da Zentra Engenharia. Seus dados são tratados conforme a LGPD e não são compartilhados com terceiros.
+        </p>
+
+        <div class="form__feedback" role="status" aria-live="polite" hidden></div>
+      </form>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- FOOTER                                                        -->
+  <!-- ============================================================ -->
+  <footer class="site-footer">
+    <div class="container site-footer__grid site-footer__grid--2">
+      <div class="site-footer__brand">
+        <img src="assets/img/zentra-logo-white.webp" alt="Zentra Engenharia" width="900" height="266" class="site-footer__logo" />
+        <p class="site-footer__tagline">
+          Engenharia, projeto e execução de obras de alto padrão. 10 anos garantindo prazo cumprido, escopo respeitado e custo travado — do projeto às chaves.
+        </p>
+      </div>
+
+      <div class="site-footer__col">
+        <h4>Contato</h4>
+        <ul>
+          <li><a href="#formulario">Solicitar orçamento</a></li>
+          <li><a href="https://wa.me/552134495299?text=Ol%C3%A1%2C%20Zentra!%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20or%C3%A7amento." target="_blank" rel="noopener">WhatsApp · (21) 3449-5299</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="site-footer__bottom container">
+      <small>© <span id="year"></span> Zentra Engenharia — Todos os direitos reservados.</small>
+      <small>Feito com precisão por <a href="https://m2black.com.br" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;text-underline-offset:2px;">M² Black</a></small>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
